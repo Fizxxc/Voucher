@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Voucher WiFi</title>
+    <link rel="stylesheet" href="wifi.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Login Voucher WiFi</h1>
+        </header>
+        
+        <form id="loginForm" class="login-form">
+            <div class="form-group">
+                <label for="loginUsername">Nama Pengguna:</label>
+                <input type="text" id="loginUsername" placeholder="Masukkan nama pengguna" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" placeholder="Masukkan password" required>
+            </div>
+            
+            <button type="submit">Login</button>
+        </form>
+
+        <p id="loginMessage"></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Voucher WiFi. All rights reserved.</p>
+    </footer>
+
+    <script src="wifi.js"></script>
+</body>
+</html>
